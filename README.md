@@ -1,5 +1,21 @@
 # Algorithms-CPP
 
+
+## 链表
+
+[链表中倒数第k个结点](/FindKthToTail.md)
+
+[反转链表](/ReverseList.md)
+
+[合并两个排序的链表](/MergeSortedList.md)
+
+## 二叉树
+
+[树的子结构](/HasSubtree.md)
+
+[二叉树的镜像](/TreeMirror.md)
+
+
 ## 其他
 [二进制中1的个数](/NumberOf1.md)
 
@@ -11,13 +27,7 @@
 
 [打印从1到最大的n位数](/OneToNMax.md)
 
-[链表中倒数第k个结点](/FindKthToTail.md)
 
-[反转链表](/ReverseList.md)
 
-[合并两个排序的链表](/MergeSortedList.md)
 
-[树的子结构](/HasSubtree.md)
-
-[ 二叉树的镜像](/TreeMirror.md)
 
