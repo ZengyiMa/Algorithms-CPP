@@ -17,19 +17,33 @@ struct ListNode {
 };*/
 class Solution {
 public:
-    ListNode* ReverseList(ListNode* pHead) {
-        if (pHead == NULL) return NULL;
-        return ReverseResuriveList(pHead);
-    }
-    
-    ListNode* ReverseResuriveList(ListNode* node) {
-        if (node->next == NULL || node == NULL) {
+      ListNode* ReverseList(ListNode* node) {
+        if (node == NULL || node->next == NULL) {
             return node;
         }
-       ListNode *head = ReverseResuriveList(node->next);
+       ListNode *head = ReverseList(node->next);
        node->next->next = node;
        node->next = NULL;
        return head;
+    }
+};
+
+// 非递归
+class Solution {
+public:
+    ListNode* ReverseList(ListNode* pHead) {
+		
+        if (pHead == NULL) return NULL;
+        ListNode *now = pHead;
+        ListNode *pre = NULL;
+		ListNode *p = NULL;
+        while (now != NULL) {
+            ListNode *tmp = now->next;
+            now->next = pre;
+            pre = now;
+            now = tmp;
+        }	
+        return pre;
     }
 };
 ```
