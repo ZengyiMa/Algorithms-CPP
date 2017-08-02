@@ -17,6 +17,7 @@
 
 [二叉树的镜像](/TreeMirror.md)
 
+[二叉搜索树的后序遍历序列](/VerifySquenceOfBST.md)
 
 ## 其他
 [二进制中1的个数](/NumberOf1.md)
