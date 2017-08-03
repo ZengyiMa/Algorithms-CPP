@@ -1,6 +1,5 @@
 # Algorithms-CPP
 
-
 ## 链表
 
 [链表中倒数第k个结点](/FindKthToTail.md)
@@ -19,6 +18,9 @@
 
 [二叉搜索树的后序遍历序列](/VerifySquenceOfBST.md)
 
+[二叉树中和为某一值的路径](/FindPath.md)
+
+
 ## 其他
 [二进制中1的个数](/NumberOf1.md)
 
@@ -35,7 +37,3 @@
 [包含 min 函数的栈](/MinStack.md)
 
 [栈的压入、弹出序列](/IsPopOrder.md)
-
-
-
-
