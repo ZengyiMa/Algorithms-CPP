@@ -1,5 +1,11 @@
 # Algorithms-CPP
 
+## 排序
+
+
+
+
+
 ## 链表
 
 [链表中倒数第k个结点](/FindKthToTail.md)
@@ -44,3 +50,5 @@
 [栈的压入、弹出序列](/IsPopOrder.md)
 
 [字符串的排列](/Permutation.md)
+
+[数组中出现次数超过一半的数字](/MoreThanHalfNum.md)
