@@ -1,49 +1,40 @@
-# 二叉树中和为某一值的路径
+# 字符串的排列
 
-描述:输入一颗二叉树和一个整数，打印出二叉树中结点值的和为输入整数的所有路径。路径定义为从树的根结点开始往下一直到叶结点所经过的结点形成一条路径。
+描述:输入一个字符串,按字典序打印出该字符串中字符的所有排列。例如输入字符串abc,则打印出由字符a,b,c所能排列出来的所有字符串abc,acb,bac,bca,cab和cba。 
 
-思路:由于要先访问节点，我们可以使用前序遍历二叉树，遍历到一个节点，使用一个数组来保存路径，
-    如果是叶节点，判断路径中的和是不是和期望的数字相同，回溯的时候将路径 pop 即可
-
-
+思路:
+* 固定第一个字符，递归取得首位后面的各种字符串组合；
+* 再把第一个字符与后面每一个字符交换，并同样递归获得首位后面的字符串组合 
 
 ```
-/*
-struct TreeNode {
-	int val;
-	struct TreeNode *left;
-	struct TreeNode *right;
-	TreeNode(int x) :
-			val(x), left(NULL), right(NULL) {
-	}
-};*/
 class Solution {
 public:
-    vector<vector<int> > FindPath(TreeNode* root,int expectNumber) {
-        vector<vector<int> > results;
-        vector<int> path;
-        findPath(root, &results, &path, expectNumber);
-        return results;
+    vector<string> Permutation(string str) {
+        vector<string> result;
+        if (str.size() == 0) return result;
+        Permutation(&str, 0, &result);
+        sort(result.begin(), result.end());
+        return result;
     }
-
-   void findPath(TreeNode* root, vector<vector<int> > *result, vector<int> *path,int expectNumber) {
-        if (root == NULL) return;
-        path->push_back(root->val);
-        // 判断是不是叶节点
-        if (root->left == NULL && root->right == NULL) {
-            int total = 0;
-            for(int i = 0; i < path->size(); ++i) {
-                total += (*path)[i];
+    
+    void Permutation(string *str, int s, vector<string> *r) {
+        if (s == str->size()) {
+            r->push_back(string(*str));
+            return;
+        } else {
+            for (int i = s; i < str->size(); ++i) {
+                if (i != s && (*str)[i] == (*str)[s]) {
+                    continue;
+                }
+                char temp = (*str)[i];
+                (*str)[i] = (*str)[s];
+                (*str)[s] = temp;
+                Permutation(str, s + 1, r);
+                 temp = (*str)[i];
+                (*str)[i] = (*str)[s];
+                (*str)[s] = temp;
             }
-            if (total == expectNumber) {
-                vector<int> currentPath(*path);
-                result->push_back(currentPath);
-            }
-        } 
-        findPath(root->left, result, path, expectNumber);
-        findPath(root->right, result, path, expectNumber);
-        // 回溯
-        path->pop_back();
-    }
+        }
+    }  
 };
 ```

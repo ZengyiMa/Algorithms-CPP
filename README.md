@@ -40,3 +40,5 @@
 [包含 min 函数的栈](/MinStack.md)
 
 [栈的压入、弹出序列](/IsPopOrder.md)
+
+[字符串的排列](/Permutation.md)
