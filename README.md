@@ -23,6 +23,8 @@
 
 [二叉树中和为某一值的路径](/FindPath.md)
 
+[二叉搜索树与双向链表](/ConvertNode.md)
+
 
 ## 其他
 [二进制中1的个数](/NumberOf1.md)
