@@ -54,3 +54,5 @@
 [整数中1出现的次数（从1到n整数中1出现的次数）](/NumberOf1Between1AndN.md)
 
 [最小的K个数](/GetLeastNumbers.md)
+
+[连续子数组的最大和](/FindGreatestSumOfSubArray.md)
