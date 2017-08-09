@@ -14,15 +14,6 @@
 
 [复杂链表的复制](/Clone.md)
 
-## 丑数
-[是否是丑数](/isUgly.md)
-
-[第 n 大的丑数](/Clone.md)
-
-
-
-
-
 
 ## 二叉树
 
@@ -67,3 +58,7 @@
 [连续子数组的最大和](/FindGreatestSumOfSubArray.md)
 
 [把数组排成最小的数](/PrintMinNumber.md)
+
+[是否是丑数](/isUgly.md)
+
+[第 n 大的丑数](/nthUglyNumber.md)
