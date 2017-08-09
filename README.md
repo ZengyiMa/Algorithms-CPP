@@ -56,3 +56,5 @@
 [最小的K个数](/GetLeastNumbers.md)
 
 [连续子数组的最大和](/FindGreatestSumOfSubArray.md)
+
+[把数组排成最小的数](/PrintMinNumber.md)
