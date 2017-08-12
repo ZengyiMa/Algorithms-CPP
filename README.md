@@ -66,3 +66,6 @@
 [第一个只出现一次的字符](/FirstNotRepeatingChar.md)
 
 [数组中的逆序对](/InversePairs.md)
+
+[两个链表的第一个公共结点](/FindFirstCommonNode.md)
+
