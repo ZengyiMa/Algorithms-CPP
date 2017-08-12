@@ -81,4 +81,6 @@
 
 [和为S的两个数字](/FindNumbersWithSum.md)
 
+[左旋转字符串](/LeftRotateString.md)
+
 
