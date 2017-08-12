@@ -33,6 +33,7 @@
 
 [二叉树的深度](/TreeDepth.md)
 
+[平衡二叉树](/IsBalanced.md)
 
 
 ## 其他
