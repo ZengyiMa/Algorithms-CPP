@@ -79,4 +79,6 @@
 
 [和为S的连续正数序列](/FindContinuousSequence.md)
 
+[和为S的两个数字](/FindNumbersWithSum.md)
+
 
