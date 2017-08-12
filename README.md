@@ -77,4 +77,6 @@
 
 [数组中只出现一次的数字](/FindNumsAppearOnce.md)
 
+[和为S的连续正数序列](/FindContinuousSequence.md)
+
 
