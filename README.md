@@ -14,6 +14,8 @@
 
 [复杂链表的复制](/Clone.md)
 
+[两个链表的第一个公共结点](/FindFirstCommonNode.md)
+
 
 ## 二叉树
 
@@ -67,5 +69,7 @@
 
 [数组中的逆序对](/InversePairs.md)
 
-[两个链表的第一个公共结点](/FindFirstCommonNode.md)
+[数字在排序数组中出现的次数](/GetNumberOfK.md)
+
+
 
