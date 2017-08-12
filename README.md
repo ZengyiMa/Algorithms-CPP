@@ -75,5 +75,6 @@
 
 [数字在排序数组中出现的次数](/GetNumberOfK.md)
 
+[数组中只出现一次的数字](/FindNumsAppearOnce.md)
 
 
