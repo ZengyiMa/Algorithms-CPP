@@ -62,3 +62,5 @@
 [是否是丑数](/isUgly.md)
 
 [第 n 大的丑数](/nthUglyNumber.md)
+
+[第一个只出现一次的字符](/FirstNotRepeatingChar.md)
