@@ -64,3 +64,5 @@
 [第 n 大的丑数](/nthUglyNumber.md)
 
 [第一个只出现一次的字符](/FirstNotRepeatingChar.md)
+
+[数组中的逆序对](/InversePairs.md)
