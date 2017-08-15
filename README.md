@@ -85,4 +85,6 @@
 
 [翻转句子](/ReverseSentence.md)
 
+[扑克牌顺子](/IsContinuous.md)
+
 
