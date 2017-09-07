@@ -93,3 +93,5 @@
 
 [不使用额外的变量来交换2个数](/SwapNumber.md)
 
+[数组中重复的数字](/duplicate.md)
+
